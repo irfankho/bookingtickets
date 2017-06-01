@@ -1,0 +1,451 @@
+[
+  {
+    "id": 0,
+    "date" : "2016-05-14",
+    "salles": [
+      {
+        "location": "Debussy",
+        "projection":[
+          {
+            "name": "Agassi",
+            "director": "Chan-Wook Park",
+            "time": "08:30",
+            "duration": "02:25",
+            "demand": 0
+          }
+        ]
+      },
+      {
+        "location": "Lumière",
+        "projection":[
+          {
+            "name": "Agassi",
+            "director": "Chan-Wook Park",
+            "time": "08:30",
+            "duration": "02:25",
+            "demand": 0
+          },
+          {
+            "name": "The BFG",
+            "director": "Steven Spielberg",
+            "time": "11:45",
+            "duration": "01:55",
+            "demand": 0
+          },
+          {
+            "name": null
+          },
+          {
+            "name": null
+          },
+          {
+            "name": "The BFG",
+            "director": "Steven Spielberg",
+            "time": "19:00",
+            "duration": "01:55",
+            "demand": 1
+          },
+          {
+            "name": "Agassi",
+            "director": "Chan-Wook Park",
+            "time": "22:00",
+            "duration": "02:25",
+            "demand": 0
+          },
+          {
+            "name": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "date" : "2016-05-15",
+    "salles": [
+      {
+        "location": "Debussy",
+        "projection":[
+          {
+            "name": "Mal de pierres",
+            "director": "Nicole Garcia",
+            "time": "08:30",
+            "duration": "02:00",
+            "demand": 0
+          }
+        ]
+      },
+      {
+        "location": "Lumière",
+        "projection":[
+          {
+            "name": "Mal de pierres",
+            "director": "Nicole Garcia",
+            "time": "08:30",
+            "duration": "02:00",
+            "demand": 0
+          },
+          {
+            "name": "Mal de pierres",
+            "director": "Nicole Garcia",
+            "time": "11:30",
+            "duration": "02:00",
+            "demand": 0
+          },
+          {
+            "name": null
+          },
+          {
+            "name": "American Honey",
+            "director": "Andrea Arnold",
+            "time": "15:30",
+            "duration": "02:42",
+            "demand": 1
+          },
+          {
+            "name": "Mal de pierres",
+            "director": "Nicole Garcia",
+            "time": "19:30",
+            "duration": "02:00",
+            "demand": 1
+          },
+          {
+            "name": "The nice guys",
+            "director": "Shane Black",
+            "time": "22:30",
+            "duration": "01:56",
+            "demand": 0
+          },
+          {
+            "name": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date" : "2016-05-16",
+    "salles": [
+      {
+        "location": "Debussy",
+        "projection":[
+          {
+            "name": "Loving",
+            "director": "Jeff Nichols",
+            "time": "08:30",
+            "duration": "02:02",
+            "demand": 0
+          }
+        ]
+      },
+      {
+        "location": "Lumière",
+        "projection":[
+          {
+            "name": "Loving",
+            "director": "Jeff Nichols",
+            "time": "08:30",
+            "duration": "02:02",
+            "demand": 0
+          },
+          {
+            "name": "Loving",
+            "director": "Jeff Nichols",
+            "time": "11:30",
+            "duration": "02:02",
+            "demand": 0
+          },
+          {
+            "name": null
+          },
+          {
+            "name": "Paterson",
+            "director": "Jim Jarmush",
+            "time": "16:00",
+            "duration": "01:53"
+          },
+          {
+            "name": "Loving",
+            "director": "Jeff Nichols",
+            "time": "19:00",
+            "duration": "02:02",
+            "demand": 1
+          },
+          {
+            "name": "Hands of stone",
+            "director": "Jonathan Jakubowicz",
+            "time": "22:00",
+            "duration": "01:56",
+            "demand": 0
+          },
+          {
+            "name": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "date" : "2016-05-17",
+    "salles": [
+      {
+        "location": "Debussy",
+        "projection":[
+          {
+            "name": "Julieta",
+            "director": "Pedro Almodovar",
+            "time": "08:30",
+            "duration": "01:36",
+            "demand": 0
+          }
+        ]
+      },
+      {
+        "location": "Lumière",
+        "projection":[
+          {
+            "name": "Julieta",
+            "director": "Pedro Almodovar",
+            "time": "08:30",
+            "duration": "01:36",
+            "demand": 0
+          },
+          {
+            "name": "Personal Assistant",
+            "director": "Olivier Assaya",
+            "time": "11:00",
+            "duration": "01:45",
+            "demand": 0
+          },
+          {
+            "name": "Julieta",
+            "director": "Pedro Almodovar",
+            "time": "13:30",
+            "duration": "01:36",
+            "demand": 0
+          },
+          {
+            "name": "Aquarius",
+            "director": "Kleben Mendonça Filho",
+            "time": "16:00",
+            "duration": "02:20"
+          },
+          {
+            "name": "Julieta",
+            "director": "Pedro Almodovar",
+            "time": "19:30",
+            "duration": "01:36",
+            "demand": 1
+          },
+          {
+            "name": "Personal Assistant",
+            "director": "Olivier Assaya",
+            "time": "22:00",
+            "duration": "01:45",
+            "demand": 0
+          },
+          {
+            "name": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "date" : "2016-05-18",
+    "salles": [
+      {
+        "location": "Debussy",
+        "projection":[
+          {
+            "name": "La fille inconnue",
+            "director": "Jean-Pierre et Luc Dardenne",
+            "time": "08:30",
+            "duration": "01:53",
+            "demand": 0
+          }
+        ]
+      },
+      {
+        "location": "Lumière",
+        "projection":[
+          {
+            "name": "La fille inconnue",
+            "director": "Jean-Pierre et Luc Dardenne",
+            "time": "08:30",
+            "duration": "01:53",
+            "demand": 0
+          },
+          {
+            "name": "Goksung",
+            "director": "Hong Jin Na",
+            "time": "11:30",
+            "duration": "02:36",
+            "demand": 0
+          },
+          {
+            "name": null
+          },
+          {
+            "name": "Ma' Rosa",
+            "director": "Brillante Mendoza",
+            "time": "16:00",
+            "duration": "01:50"
+          },
+          {
+            "name": "La fille inconnue",
+            "director": "Jean-Pierre et Luc Dardenne",
+            "time": "19:00",
+            "duration": "01:53",
+            "demand": 1
+          },
+          {
+            "name": "Goksung",
+            "director": "Hong Jin Na",
+            "time": "22:00",
+            "duration": "02:36",
+            "demand": 0
+          },
+          {
+            "name": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "date" : "2016-05-19",
+    "salles": [
+      {
+        "location": "Debussy",
+        "projection":[
+          {
+            "name": "Baccalauréat",
+            "director": "Cristian Mungiu",
+            "time": "08:30",
+            "duration": "02:07",
+            "demand": 0
+          }
+        ]
+      },
+      {
+        "location": "Lumière",
+        "projection":[
+          {
+            "name": "Baccalauréat",
+            "director": "Cristian Mungiu",
+            "time": "08:30",
+            "duration": "02:07",
+            "demand": 0
+          },
+          {
+            "name": "Juste la fin du monde",
+            "director": "Xavier Dolan",
+            "time": "11:30",
+            "duration": "01:35",
+            "demand": 0
+          },
+          {
+            "name": "Baccalauréat",
+            "director": "Cristian Mungiu",
+            "time": "14:30",
+            "duration": "02:07",
+            "demand": 0
+          },
+          {
+            "name": null
+          },
+          {
+            "name": "Baccalauréat",
+            "director": "Cristian Mungiu",
+            "time": "18:30",
+            "duration": "02:07",
+            "demand": 1
+          },
+          {
+            "name": "Juste la fin du monde",
+            "director": "Xavier Dolan",
+            "time": "22:00",
+            "duration": "01:35",
+            "demand": 1
+          },
+          {
+            "name": "Gimme danger",
+            "director": "Jim Jarmush",
+            "time": "23:59",
+            "duration": "01:48",
+            "demand": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "date" : "2016-05-20",
+    "salles": [
+      {
+        "location": "Debussy",
+        "projection":[
+          {
+            "name": "The last face",
+            "director": "Sean Penn",
+            "time": "08:30",
+            "duration": "02:11",
+            "demand": 0
+          }
+        ]
+      },
+      {
+        "location": "Lumière",
+        "projection":[
+          {
+            "name": "The last face",
+            "director": "Sean Penn",
+            "time": "08:30",
+            "duration": "02:11",
+            "demand": 0
+          },
+          {
+            "name": "The neon demon",
+            "director": "Nicolas Winding Refn",
+            "time": "12:00",
+            "duration": "01:57",
+            "demand": 0
+          },
+          {
+            "name": null
+          },
+          {
+            "name": "The last face",
+            "director": "Sean Penn",
+            "time": "15:30",
+            "duration": "02:11",
+            "demand": 0
+          },
+          {
+            "name": "The last face",
+            "director": "Sean Penn",
+            "time": "19:00",
+            "duration": "02:11",
+            "demand": 1
+          },
+          {
+            "name": "The neon demon",
+            "director": "Nicolas Winding Refn",
+            "time": "22:30",
+            "duration": "01:57",
+            "demand": 0
+          },
+          {
+            "name": null
+          }
+        ]
+      }
+    ]
+  }
+]
