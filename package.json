@@ -1,0 +1,22 @@
+{
+  "name": "cannestickets",
+  "version": "1.0.0",
+  "description": "Booking for Cannes Tickets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfankho/bookingtickets.git"
+  },
+  "keywords": [
+    "Angularjs"
+  ],
+  "author": "Irfaan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irfankho/bookingtickets/issues"
+  },
+  "homepage": "https://github.com/irfankho/bookingtickets#readme"
+}

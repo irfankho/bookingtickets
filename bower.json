@@ -1,0 +1,17 @@
+{
+  "name": "cannestickets",
+  "description": "Booking for Cannes Tickets",
+  "main": "index.js",
+  "authors": [
+    "Irfaan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Angularjs"
+  ],
+  "homepage": "",
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7"
+  }
+}
