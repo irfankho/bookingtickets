@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html data-ng-app="cannesTicketsApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cannes Booking Tickets</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/lib/angular.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/controller/app.js"></script>
+</head>
+
+<body>
+<div class="container" ng-controller="MainCtrl as ctrl">
+    <div class="row">
+        <div class="col-md-12 logo">
+            <img class="logo" src="../src/images/logo-festival-de-cannes.png">
+            <h1>Réservation de ticket au festival aux Cannes</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 salle-top-head" ng-repeat="salle in ctrl.sallesTop">
+                {{ salle }}
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 calendar-dates">
+                <ul ng-repeat="date in ctrl.dates">
+                    <li><img src="../src/images/background-calendrier.png">
+                        <div class="listing">{{date.date | date : "EEEE d" }}</div></li>
+                </ul>
+
+            </div>
+            <div class="col listing-dates" ng-repeat="first in ctrl.dates">
+                <div class="salles" ng-repeat="salle in first.salles">
+                    <div class="projection" ng-repeat="film in salle.projection">
+                        <ul class="bloc" ng-style="{'background-color': screenColor}">
+                            <div class="null" ng-if="film.name == null"></div>
+
+                            <li>
+                                <h4>{{film.name}}</h4>
+                                <span class="director">{{film.director}}</span>
+                                <ul class="bloc-list">
+                                    <li class="left"><img src="../src/images/picto-horaire.png">{{film.time}}</li>
+                                    <li class="right" ng-click="screenColor='#C0392B'"><img src="../src/images/picto-pas-de-demande.png">Demander</li>
+                                    <div class="peak" ng-if="film.demand == 1">
+                                </ul>
+
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

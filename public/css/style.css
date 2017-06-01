@@ -1,0 +1,96 @@
+body{
+    background-color: #e2e2e2;
+}
+.logo{
+    text-align: center;
+    padding: 10px 0px;
+}
+.bloc-list{
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+}
+.listing-dates .salles .projection .bloc{
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+    width: 175px;
+    height: 121px;
+    background-color: #ffffff;
+    margin: 3px;
+    padding-left: 12px;
+}
+.listing-dates .salles .projection .bloc h4{
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.listing-dates .salles .projection .bloc li .bloc-list{
+    padding-top: 20px;
+}
+.listing-dates .salles .projection .bloc li{
+    vertical-align: middle;
+}
+.listing-dates .salles .projection .bloc .left{
+    padding-right: 10px;
+}
+.listing-dates .salles .bloc .null{
+    background: url("../../src/images/background-pas-de-seances.png") center center no-repeat;
+    background-color: #e2e2e2;
+    background-color: #e2e2e2;
+    width: 109%;
+    position: relative;
+    left: -12px;
+    height: 122px;
+}
+.listing-dates .salles .projection .white-back{
+    background-color: #ffffff;
+}
+
+.container{
+    width:1600px;
+    margin-left: 34px;
+}
+
+.calendar-dates ul{
+    list-style: none;
+    height: 118px;
+    width: 116px;
+    padding-left: 11px;
+    padding-top: 12px;
+    background-color: #ffffff;
+}
+.calendar-dates .listing{
+    position: relative;
+    top: -53px;
+    font-weight: 600;
+    left: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.salle-top-head{
+    color: #FFEB3B;
+}
+.salle-top-head:nth-child(2){
+    width: 1260px;
+    background-color: #0f0f0f;
+    margin-left: 6px;
+    padding: 4px 15px;
+}
+.salle-top-head:nth-child(1){
+    width: 175px;
+    background-color: #0f0f0f;
+    margin-left: 137px;
+    padding: 4px 15px;
+}
+
+.listing-dates .salles .projection .bloc .peak{
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    bottom: 38px;
+    right: 5px;
+
+}
